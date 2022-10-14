@@ -26,7 +26,7 @@ Fordal is very limited.
 
 # Installation
 ```html
-<script src="https://cdn.jsdelivr.net/gh/dlvdls18/Fordal/src/fordal.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dlvdls18/Fordal/fordal.js"></script>
 ```
 ```js
 var fordal = Fordal(`
