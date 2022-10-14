@@ -151,6 +151,11 @@ function Fordal(source, template) {
         instance.stack.push(last);
       } else execute(stack);
     } else {
+      if(instance.length == 0) {
+        instance.exit = "1";
+        instance.logs.push("Forda error ang ferson: Arguments can only be added when stack is not empty");
+        return
+      }
       var last = instance.stack.pop();
       last.args.push(line);
       instance.stack.push(last);
