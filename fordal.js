@@ -113,6 +113,7 @@ function Fordal(source, template) {
       args.forEach(function(item) {
         res += item;
       });
+      return res;
     },
     exit(instance, args) {
       if(args.length != 1) {
