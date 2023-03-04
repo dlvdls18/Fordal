@@ -52,7 +52,7 @@ ang ferson
 ### Forda
 This will push itself to the stack.
 
-# Argument
+### Argument
 When stack is not empty,
 Every next lines will be treated as arguments.
 Each arguments will be added to the last stack.
