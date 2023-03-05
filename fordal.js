@@ -1,5 +1,5 @@
-function Fordal(source, template) {
-  var instance = {
+function Fordal(source, template, instance) {
+  instance = instance || {
     stack: [],
     logs: [],
     variables: {},
@@ -168,3 +168,4 @@ function Fordal(source, template) {
   }
   return instance;
 }
+Fordal.version = 2;
